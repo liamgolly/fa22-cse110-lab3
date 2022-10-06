@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> meeting_minutes_format </title>
+        <meta name="description" content="My second lab">
+        <link rel="icon" type="image/x-icon" href="./favicon.png">
+    </head>
+    <body>
+        <header>
+            <div id="#"> </div> <!-- Image at the top of the page later -->
+            <h1> Meeting Notes </h1>
+        </header>
+        <nav>
+            <details>
+                <summary> Links to other notes </summary>
+                <ol> <!-- Links to other meeting notes. This should be auto-generated with a single javascript file shared across all meeting notes. -->
+                    <li> <a href="#"> sample-notes-1 </a> </li>
+                    <li> <a href="#"> sample-notes-2 </a> </li>
+                    <li> <a href="#"> sample-notes-3 </a> </li>
+                </ol>
+            </details>
+        </nav>
+        <main>
+            <section>
+                <h1> Meeting Intro </h1>
+                    <p> <span class="meeting_intro_text">
+                        Lorem ipsum dolor
+                    </span> </p>
+                <hr>
+            </section>
+            <section>
+                <h1>Sub-team Recaps</h1>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong> Sub-team 1 </strong> <br> 'Sub-team 1' will display
+                                emphasized text no matter what language or format is used,
+                                and will be the equivalent of bold for english text.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <b> Sub-team 2 </b> <br>'Sub-team 2' will physically increase the
+                                line thickness.  This may not mean the same thing in other languages
+                                or formats.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <em> Sub-team 3 </em> <br> 'Sub-team 3' will display
+                                emphasized text no matter what language or format is used,
+                                and will be the equivalent of italics for english text.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i> Sub-team 4 </i> <br> 'Sub-team 4' will display text that is
+                                slightly tilted and off axis. This may not mean the same thing in
+                                other languages and formats.
+                            </p>
+                        </li>
+                    </ul>
+                <hr>
+            </section>
+            <section>
+                <h1>Plans for this week</h1>
+                <p>
+                    Validate this website <br/>
+                    Submit this lab.
+                </p>
+                <img src="./screenshots/example.png" alt="Screenshot of validation" height="290" width="500">
+                <br>
+                <audio controls src="./that_was_easy.mp3">
+                    <a href="./that_was_easy.mp3"> Download </a>
+                </audio>
+                <br/>
+                <video controls width="290" height="200">
+                    <source src="./woo.webm" type="video/webm">
+                </video>
+                <hr>
+            </section>
+            <section>
+                <h1> That one form that we have to make for this lab </h1>
+                <form>
+                    <fieldset>
+                        <legend> Which of these is the best language </legend>
+                        <input type="radio" id="c++" name="language" value="a"> <label for="c++"> c++ </label> <br>
+                        <input type="radio" id="c" name="language" value="b">   <label for="c">   c   </label> <br>
+                    </fieldset>
+                    <textarea id="text" name="text" rows="3" cols="50">You can enter text here.</textarea>
+                    <br>
+                    <label for="datalist-form"> Datalist: </label>
+                    <input list="datalist-info" id="datalist-form">
+                    <datalist id="datalist-info">
+                        <option value="Autofill A">
+                        <option value="Autofill B">
+                        <option value="Autofill C">
+                        <option value="Autofill D">
+                        <option value="Autofill E">
+                    </datalist>
+                    <br>
+                    <label for="selection-form"> Selector: </label>
+                    <select id="selection-form">
+                        <option value=""> Choose an option </option>
+                        <option value="1"> This has </option>
+                        <option value="2"> less freedom </option>
+                        <option value="3"> than datalist </option>
+                    </select>
+                    <br>
+                    <button type="button">Without JS this does nothing.</button>
+                </form>
+            </section>
+        </main>
+        <footer> <!-- Include some footer at the bottom of the page like other websites do --> </footer>
+    </body>
+</html>
