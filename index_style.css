@@ -24,7 +24,13 @@
     background-clip: content-box;
 
 }
+@media screen {
+    video {
+        background-color: darksalmon;
+    }
+}
 .box_a {
+    display:inline-block;
     margin-top: 1mm;
     margin-bottom: 1mm;
     margin-left: 1mm;
@@ -43,6 +49,7 @@
     border-radius: 1mm;
 }
 .box_b {
+    display:inline;
     margin: 5px 5px 5px 5px;
     padding: 1mm 1mm 1mm 1mm;
     border: medium dotted red;
