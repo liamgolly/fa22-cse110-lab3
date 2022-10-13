@@ -1,37 +1,58 @@
+/* this is the header at the top of the html file. */
 .my_class {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: static;
+}
+/* Targets a div that appears next to the header at the top of the page. */
+#my_id {
 
 }
-#id {
-
-}
+/* A universal selector. */
 * {
 
 }
+/*  */
 title {
 
 }
-[attribute=my_attribute] {
-
+/* sub-team recap header is hit by this*/
+[my_atribute="has_attribute"] {
+    padding: 1vmin;
 }
+/* Any summaries that are hovered are hit by this. */
 summary:hover {
-
 }
-i,
-em {
-
+/* The italic text is affected by this */
+b,
+strong {
+    max-width: 10in;
+    min-width: 1px;
 }
-li p {
-
+header h1 {
+    border: 1em;
 }
+/* This happens anywhere there is a collapsable list. */
 details > summary {
+    position: relative;
+    left: 5em;
 
 }
+/* This appears once at the header that describes the weeks plans. */
 h2 + p {
-
+    margin: 1em;
 }
+/* This is in the list of lists. */
 li ~ li {
+    margin-top: 1ch;
+    margin-bottom: 1px;
+    padding-left: 1mm;
+    padding-right: 2pc;
 
 }
+/* this is the header at the top of the html form. */
 h2.form_class {
 
 }
