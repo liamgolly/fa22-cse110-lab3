@@ -16,7 +16,6 @@
     grid-template-rows: 5em 5em 5em 5em;
     grid-row-gap: 10px;
     grid-auto-flow: row;
-
 }
 /* Targets a div that appears next to the header at the top of the page. */
 #my_id {
@@ -64,6 +63,9 @@ title {
 summary:hover {
     color: aqua
 }
+summary:active {
+    color: beige
+}
 /* The italic text is affected by this */
 b,
 strong {
@@ -81,7 +83,10 @@ details > summary {
 }
 /* This appears once at the header that describes the weeks plans. */
 h2 + p {
-    margin: 1em;
+    color: lawngreen;
+    text-decoration: orange;
+    text-align-last: center;
+    font-family: 'Open Sans', sans-serif;
 }
 /* This is in the list of lists. */
 li ~ li {
