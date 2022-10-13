@@ -1,0 +1,37 @@
+.my_class {
+
+}
+#id {
+
+}
+* {
+
+}
+title {
+
+}
+[attribute=my_attribute] {
+
+}
+summary:hover {
+
+}
+i,
+em {
+
+}
+li p {
+
+}
+details > summary {
+
+}
+h2 + p {
+
+}
+li ~ li {
+
+}
+h2.form_class {
+
+}
