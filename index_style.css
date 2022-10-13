@@ -1,14 +1,52 @@
 /* this is the header at the top of the html file. */
 .my_class {
     width: 100vw;
-    align-items: center;
-    justify-content: center;
+    height: 10vw;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
     position: static;
+    background-color: azure;
+}
+.my_grid {
+    display: grid;
+    grid-template-rows: 5em 5em 5em 5em;
+    grid-row-gap: 10px;
+    grid-auto-flow: row;
+
 }
 /* Targets a div that appears next to the header at the top of the page. */
 #my_id {
+    width: 5vw;
+    background-image: url("favicon.png");
+    background-clip: content-box;
 
+}
+.box_a {
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+    margin-left: 1mm;
+    margin-right: 1mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-bottom: 1mm;
+    border-top: 1mm;
+    border-left: 1mm;
+    border-right: 1mm;
+    border-style: groove;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 1mm;
+}
+.box_b {
+    margin: 5px 5px 5px 5px;
+    padding: 1mm 1mm 1mm 1mm;
+    border: medium dotted red;
 }
 /* A universal selector. */
 * {
@@ -24,6 +62,7 @@ title {
 }
 /* Any summaries that are hovered are hit by this. */
 summary:hover {
+    color: aqua
 }
 /* The italic text is affected by this */
 b,
