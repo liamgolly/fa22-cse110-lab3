@@ -1,3 +1,2 @@
-# Lab 2 - Starter
+# Lab 3
 
-[Link to webpage](https://liamgolly.github.io/Lab2_Starter/)
